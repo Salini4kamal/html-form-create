@@ -1,0 +1,41 @@
+/* th{
+    border:2px solid black;
+    position :absolute;
+    padding:120px;
+}
+tr{
+    border:2px solid black;
+    position:relative;
+} */
+body{
+    padding: 0;
+    margin:0;
+    max-width: 100%;
+    overflow-x: hidden;
+    /* background-color: aqua; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+table,tbody,tr,td,th{
+    border:2px solid black;
+   padding:30px; 
+   text-align: center;
+   /* margin:40px; */
+}
+
+table{
+    margin:20px;
+    padding:20px;
+}
+.table-title{
+    /* padding:30px; */
+    margin-top: 30px;
+    text-align: center;
+}
+th,label{
+font-size: 20px;
+color:rgb(161, 31, 31)
+}
